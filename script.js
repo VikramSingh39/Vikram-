@@ -49,21 +49,18 @@ function currentSlide(n){
 
 
 // input form
-function sendEmail(){
-      let name = document.getElementById("name").valye;
+function send(){
+      let name = document.getElementById("name").value;
       let email = document.getElementById("email").value;
       let message = document.getElementById("message").value;
       let body = "Name: " + name + "<br/> Email:" + email + "<br/> Message: " + message;
-
+      
       Email.send({
-            Host : "smtp.elasticemail.com",
-            Username : "svikrmsingh95@gmail.com",
-            Password : "C017F04B1972E59CA2387F64FCB3EBF98AF0",
-            To : 'srvikramsingh1@gmail.com',
-            From : email,
-            Subject : "Job Message",
-            Body : "and this is body"
-
+            SecureToken :"5bdda141-26a9-4bfb-888e-8cb5345ac69a ",
+            To : 'svikrmsingh95@gmail.com',
+            From : "svikrmsingh95@gmail.com",
+            Subject : "JOB MESSAGE",
+            Body : body
         }).then(
           message => alert("Message Sent Succesfully")
         );
