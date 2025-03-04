@@ -1,0 +1,386 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vikram Singh | Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,150,100..900;1,150,100..900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Semi+Condensed:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link href="./output.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="output.css"> -->
+</head>
+<body>
+<!-- Navigation Bar -->
+              <nav class="navbar">
+                <a href="#home">
+                  <div class="logo">
+                    <div class="dot yellow"></div>
+                    <div class="dot blue"></div>
+                    <span class="myName">Vikram Singh</span>
+                </div>
+                </a>
+
+                <div class="right_nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about_me">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <a href="#contact_me"><button>Contact Me</button></a>
+                    
+                </ul>
+            </div>
+            <i class="hamburger ri-menu-2-line" onclick="showSidebar()"></i>
+            <ul class="menu_icon">
+                <i class="close_icon ri-close-large-line hamburger_close" onclick="close_sidebar()"></i>
+                <li><a class="menu_link" href="#home" onclick="close_sidebar()">Home</a></li>
+                <li><a class="menu_link" href="#about_me" onclick="close_sidebar()">About Me</a></li>
+                <li><a class="menu_link" href="#services" onclick="close_sidebar()">Services</a></li>
+                <li><a class="menu_link" href="#project" onclick="close_sidebar()">Projects</a></li>
+                <li><a class="menu_link" href="#testimonials" onclick="close_sidebar()">Testimonials</a></li>
+
+                <a href="#contact_me" class="hamburger_btn" onclick="close_sidebar()"><button>Contact Me</button></a>
+                
+            </ul>
+            </nav>
+<!-- Main Section -->
+      <main class="w-full">
+<!-- Hero Section -->
+        <section class="hero_section new_section" id="home">
+            <div class="left_hero">
+                  <img src="/public/hero_2_image.jpg" alt="">
+            </div>
+            <div class="right_hero">
+                  <p>Hii I'm</p>
+                  <p class="name">Vikram Singh</p>
+                  <h1 class="job ">Web</h1>
+                  <h1 class="job dev_job">Developer</h1>
+                  <p class="summery">I specialize in crafting stunning, functional websites that captivate users. From selecting the perfect color schemes to designing intuitive user experiences, I bring visions to life. Count on me to elevate your web presence and drive user satisfaction, retention, and conversions.
+                  </p>
+                  <div class="btn ">
+                    <a href="#contact_me"><button class="hire_me">Hire Me</button></a>
+                        
+                        <!-- <button class="download_cv"><i class="ri-download-cloud-line"></i>Download CV</button> -->
+                  </div>
+            </div>
+        </section>
+ <!-- Social Icons -->
+         <section class="social_icons new_section">
+            <a href="https://github.com/VikramSingh39" target="_blank"><i class="ri-github-fill"></i></a>
+            <a href="https://www.linkedin.com/in/vksingh15/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="https://x.com/SinghVikram59" target="_blank"><i class="ri-twitter-fill"></i></a>
+            <a href="https://www.instagram.com/sde.vikram/" target="_blank"><i class="ri-instagram-fill"></i></a>
+            <a href="mailto:vikrmsingh@outlook.in" target="_blank"><i class="ri-mail-send-fill"></i></a>
+            
+         </section>
+ <!-- About Me -->
+  <!-- This section is divided into two parts one is my skills and 2nd for education -->
+   <!-- my skilss 👇 -->
+          <section class="new_section about_me" id="about_me">
+            <h1 class="heading">About Me</h1>
+          <div class="skill_section">
+            <div class="skill_image"><img src="/public/hero_image.jpg" alt=""></div>
+            
+
+            <div class="container">
+              <h2 class="title">My skills 🛠️</h2>
+                <div class="progress_container">
+                  <h4>HTML</h4>
+                  <div class="progress-bar">
+                    <span data-width="90%"></span>
+                  </div>
+                </div>
+              
+                <div class="progress_container">
+                  <h4>CSS</h4>
+                  <div class="progress-bar">
+                    <span data-width="80%"></span>
+                  </div>
+                </div>
+              
+                <div class="progress_container">
+                  <h4>JavaScript</h4>
+                  <div class="progress-bar">
+                    <span data-width="70%"></span>
+                  </div>
+                </div>
+              
+                <div class="progress_container">
+                  <h4>Tailwind </h4>
+                  <div class="progress-bar">
+                    <span data-width="80%"></span>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+          </section>
+          <!-- Education -->
+          <section class="education_section">
+            <h2 class="title">👨🏼‍💻 Education</h2>
+            <div class="timeline">
+
+              <div class="timeline_item left">
+                <div class="edu_content">
+                  <h3>Master in Computer Application</h3>
+                  <p>Chandigarh University</p>
+                  <span class="date">📅 2024 - 2026</span>
+                </div>
+              </div>
+
+             <div class="vertical_line">
+              <div class="edu_circle"></div>
+              <div class="edu_line"></div>
+              <div class="edu_circle"></div>
+             </div>
+
+             <div class="timeline_item right"></div>
+               
+            </div>
+
+            <div class="timeline">
+              <div class="timeline_item left"></div>
+
+              <div class="timeline_item right">
+                <div class="edu_content">
+                  <h3>Job Ready AI Powered Cohort: Web + DSA</h3>
+                  <p>Sheryians Coding School</p>
+                  <span class="date">📅 2025 Jan - 2025 July</span>
+                </div>
+              </div>
+            </div>
+
+          </section>
+ <!-- Crousel Project -->
+             <section class="crousel_project new_section" id="project">
+              <h1 class="heading">Recent Project</h1>
+              <div class="slideshow-container">
+                
+                <div class="allSlides">
+                  <div class="numberText">1/4</div>
+                  <div class="flex_item">
+                      
+                      <img class="proect_image" src="/public/Fylla_agency.png" style="width: 100%;" alt="">
+                      <div class="project_text">
+                        <h3>Fylla Online Agency</h3>
+                        <p class="para">
+                          Fylla is a minimal & modern Agency Website Template perfectly suited for creative agencies, design studios, freelancer or your personal portfolio.  CMS and Ecommerce integration.</p>
+                         <h2 class="tech_use">Tech use: HTML, CSS & Tailwind</h2>
+                          <button class="deploy_btn"><a href="https://vikramsingh39.github.io/Fylla_Agency/" target="_blank">Deployed</a><i class="ri-arrow-right-up-line"></i></button>
+                      </div>
+                    </div>
+                </div>
+              
+          
+                <div class="allSlides">
+                  <div class="numberText">2/4</div>
+                  <div class="flex_item">
+                      
+                      <img class="proect_image" src="/public/Bike_wale.png" style="width: 100%;" alt="">
+                      <div class="project_text">
+                        <h3>Bike Wale</h3>
+                        <p class="para">
+                          Bike Wale Website UI clone. Bike Wale is a company who provide comprehesive understandign about bikes. They also help in selling and buyind used bikes.</p>
+                          <h2 class="tech_use">Tech use: HTML & CSS</h2>
+                          <button class="deploy_btn"><a href="https://bike-wale.netlify.app" target="_blank">Deployed</a><i class="ri-arrow-right-up-line"></i></button>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="allSlides">
+                  <div class="numberText">3/4</div>
+                  <div class="flex_item">
+                      
+                      <img class="proect_image" src="/public/Huddle.png" style="width: 100%;" alt="">
+                      <div class="project_text">
+                        <h3>Frontend Mentor Project</h3>
+                        <p class="para">
+                          Huddle landing page with alternating feature blocks. Create combination of Grid and Flexbox property.
+                        </p>
+                        <h2 class="tech_use">Tech use: HTML & CSS</h2>
+                        <button class="deploy_btn"> <a href="https://huddle-landing-homepage.netlify.app" target="_blank">Deployed</a> <i class="ri-arrow-right-up-line"></i></button>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="allSlides">
+                  <div class="numberText">4/4</div>
+                  <div class="flex_item">
+                      
+                      <img class="proect_image" src="/public/Gallery.png" style="width: 100%;" alt="">
+                      <div class="project_text">
+                        <h3>Antique Gallery</h3>
+                        <p class="para">
+                          A car gallery made with the help of CSS grid. Propery used: box-shadow, Grid and etc...</p>
+                          <h2 class="tech_use">Tech use: HTML & CSS</h2>
+                          <button class="deploy_btn"> <a href="https://car-gallery247.netlify.app" target="_blank">Deployed</a><i class="ri-arrow-right-up-line"></i></button>
+                      </div>
+                    </div>
+                </div>
+                <i class="arrow prev ri-arrow-left-wide-line" onclick="changeSlides(-1)"></i>
+                <i class="arrow next ri-arrow-right-wide-fill" onclick="changeSlides(1)"></i>
+              </div>
+             </section>
+
+ <!-- My Services -->
+           <section class="my_services new_section" id="services">
+
+            <h1 class="heading">Services</h1>
+            <p class="services_summery font-light text-center">Passionate web designer and developer with expertise in creating visually appealing, responsive websites. Skilled in HTML, CSS, JavaScript, ReactJS, and Tailwind CSS. Strong problem-solving abilities, leveraging creative SOL to optimize user experience and enhance functionality.</p>
+            <div class="boxes ">
+
+            <div class="box">
+              <img src="/public/UI:UX.png" alt="">
+              <h2>UI/UX</h2>
+              <p>Collaborate with UI/UX designers & backend developers to ensure seamless integration and functionality of frontend components.</p>
+            </div>
+
+            <div class="box">
+              <img src="/public/webdesign.png" alt="">
+              <h2>Web Design</h2>
+              <p>Creating visually appealing, user-friendly, and responsive websites with modern aesthetics, typography, color theory, UI/UX principles, and wireframing.</p>
+            </div>
+
+            <div class="box">
+              <img src="/public/development.png" alt="">
+              <h2>Development</h2>
+              <p>Building functional, efficient, and scalable web applications using HTML, CSS, JavaScript, ReactJS, and backend integration for seamless user experience.</p>
+            </div>
+
+            <div class="box">
+              <img src="/public/creative_sol.png" alt="">
+              <h2>Creative SOL</h2>
+              <p>Thinking outside the box, analyzing challenges, developing innovative solutions, optimizing, debugging efficiently, and enhancing user interactions with unique approaches.</p>
+            </div>
+          </div>
+
+           </section>
+             
+ <!-- Testimonials -->
+             <section class="testimonials new_section" id="testimonials">
+              <h1 class="heading">Testimonials</h1>
+
+              <div class="testimonials_boxes">
+                
+                <div class="review_box">
+                  <img src="/public/icons8-user-100.png" alt="">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores praesentium dolores voluptatem veniam esse provident?</p>
+                  <div class="bottom_review">
+                    <div class="position">
+                      <h4>XYZ</h4>
+                      <h4>CEO</h4>
+                    </div>
+                    <img src="/public/stars.png" alt="">
+                  </div>
+                </div>
+     
+                <div class="review_box">
+                  <img src="/public/icons8-user-100.png" alt="">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores praesentium dolores voluptatem veniam esse provident?</p>
+                  <div class="bottom_review">
+                    <div class="position">
+                      <h4>XYZ</h4>
+                      <h4>CEO</h4>
+                    </div>
+                    <img src="/public/stars.png" alt="">
+                  </div>
+                </div>
+
+                <div class="review_box">
+                  <img src="/public/icons8-user-100.png" alt="">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores praesentium dolores voluptatem veniam esse provident?</p>
+                  <div class="bottom_review">
+                    <div class="position">
+                      <h4>XYZ</h4>
+                      <h4>CEO</h4>
+                    </div>
+                    <img src="/public/stars.png" alt="">
+                  </div>
+
+                </div>
+              </div>
+
+             </section>
+<!-- Contact Me -->
+ <section class="new_section" id="contact_me">
+  <div class="contact_me">
+     
+    <div class="left_contact">
+      <h1>Contact Me</h1>
+      <div class="contact_content email">
+        <img src="/public/email.jpg" alt="">
+        <div class="contact_me_email">
+          <h4>Email</h4>
+          <p><a href="mailto:vikrmsingh@outlook.in">vikrmsingh@outlook.in</a></p>
+        </div>
+      </div>
+
+      <div class="contact_content location">
+        <img src="/public/location.jpg" alt="">
+        <div class="contact_me_email">
+          <h4>Location</h4>
+          <p>Chandigarh , India</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="right_contact">
+      <form class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name / company name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email / company email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder=" Message here" required></textarea>
+
+        <button type="submit" onclick="sendEmail()">Send Message</button>
+    </form>
+    </div>
+
+  </div>
+ </section>
+       </main>
+    
+ <!-- Footer -->
+       <footer>
+
+       <div class="first_footer">
+        <div class="left_footer ">
+          <a href="#home">
+            <div class="logo ">
+              <div class="dot yellow"></div>
+              <div class="dot blue"></div>
+              <span class="myName footer_name">Vikram Singh</span>
+          </div>
+          </a>
+
+        </div>
+        <div class="midd_footer ">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about_me">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+        </div>
+        <div class="right_footer">
+          <a href="#home"><button>Back To Top</button></a>
+          
+        </div>
+       </div>
+
+       <div class="second_footer">
+        <p>&copy; 2025 <span><a href="https://www.linkedin.com/in/vksingh15/" target="_blank">Vikram Singh</a></span> All Right Reserved , Inc.</p>
+       </div>
+       </footer>
+       <script src="script.js"></script>
+       <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
