@@ -478,9 +478,6 @@ nav .hamburger_btn {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 15px;
-  }
   .new_section {
     margin-top: 6rem;
   }
@@ -569,9 +566,6 @@ nav .hamburger_btn {
   }
 }
 @media (min-width: 1024px) {
-  html {
-    font-size: 20px;
-  }
   .hamburger {
     display: none;
   }

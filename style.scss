@@ -504,9 +504,7 @@ nav{
 }
 // ============ Media Queries 768-PX ================
 @media (min-width: 768px){
-      html{
-            font-size: 15px;
-      }
+
       .new_section{
             margin-top: 6rem;
       }
@@ -609,9 +607,6 @@ nav{
 }
 // 1024 px============================================================
 @media (min-width: 1024px){
-      html{
-            font-size: 20px;
-      }
   .hamburger{
       display: none;
   }
