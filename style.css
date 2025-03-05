@@ -7,7 +7,7 @@
 
 html, body {
   font-family: "Inter", serif;
-  font-size: 12px;
+  font-size: 14px;
   width: 100%;
 }
 
@@ -314,7 +314,7 @@ nav .hamburger_btn {
   background-color: rgba(249, 202, 49, 0.5450980392);
 }
 
-.crousel_project h1 {
+.crousel_project h {
   font-size: 2.25rem;
 }
 .crousel_project .tech_use {
@@ -365,7 +365,7 @@ nav .hamburger_btn {
   position: absolute;
   top: 40%;
   transform: translate(-50%);
-  font-size: 3rem;
+  font-size: 4rem;
   color: rgba(17, 135, 231, 0.6509803922);
 }
 .crousel_project .next {
@@ -479,7 +479,7 @@ nav .hamburger_btn {
 
 @media (min-width: 768px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
   .new_section {
     margin-top: 6rem;
@@ -570,7 +570,7 @@ nav .hamburger_btn {
 }
 @media (min-width: 1024px) {
   html {
-    font-size: 16px;
+    font-size: 20px;
   }
   .hamburger {
     display: none;

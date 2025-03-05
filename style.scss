@@ -6,7 +6,7 @@
 }
 html,body{
       font-family: "Inter", serif;
-      font-size: 12px;
+      font-size: 14px;
       width: 100%;
 }
 // Universal Selectors. 
@@ -323,7 +323,7 @@ nav{
 }
 //  =============== Crousel project ====================
 .crousel_project{
-      h1{
+      h{
             font-size: 2.25rem;
       }
       .tech_use{
@@ -379,7 +379,7 @@ nav{
             position: absolute;
             top: 40%;
             transform: translate(-50%);
-            font-size: 3rem;
+            font-size: 4rem;
             color: #1187e7a6;
       }
       .next{
@@ -505,7 +505,7 @@ nav{
 // ============ Media Queries 768-PX ================
 @media (min-width: 768px){
       html{
-            font-size: 14px;
+            font-size: 15px;
       }
       .new_section{
             margin-top: 6rem;
@@ -610,7 +610,7 @@ nav{
 // 1024 px============================================================
 @media (min-width: 1024px){
       html{
-            font-size: 16px;
+            font-size: 20px;
       }
   .hamburger{
       display: none;
