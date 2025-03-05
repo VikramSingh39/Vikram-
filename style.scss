@@ -6,7 +6,7 @@
 }
 html,body{
       font-family: "Inter", serif;
-      font-size: clamp(12px, 16px, 20px);
+      font-size: 12px;
       width: 100%;
 }
 // Universal Selectors. 
@@ -504,6 +504,9 @@ nav{
 }
 // ============ Media Queries 768-PX ================
 @media (min-width: 768px){
+      html{
+            font-size: 14px;
+      }
       .new_section{
             margin-top: 6rem;
       }
@@ -606,6 +609,9 @@ nav{
 }
 // 1024 px============================================================
 @media (min-width: 1024px){
+      html{
+            font-size: 16px;
+      }
   .hamburger{
       display: none;
   }
