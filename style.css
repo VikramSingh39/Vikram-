@@ -566,6 +566,9 @@ nav .hamburger_btn {
   }
 }
 @media (min-width: 1024px) {
+  main {
+    padding: 10px 15rem;
+  }
   .hamburger {
     display: none;
   }

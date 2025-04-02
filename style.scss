@@ -608,6 +608,9 @@ nav{
 }
 // 1024 px============================================================
 @media (min-width: 1024px){
+      main{
+            padding: 10px 15rem;
+      }
   .hamburger{
       display: none;
   }
