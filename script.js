@@ -1,5 +1,5 @@
 
-
+// ======================= Smooth Scroll Effect ===============================
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener("click", function (event) {
           event.preventDefault(); // Prevent abrupt jump
@@ -14,8 +14,10 @@
           });
       });
   });
+// ==============Mouse Trail Effect ==============================
+   
 
-
+// ======================= Menu Bar for Mobile device =========================
 const sidebar = document.querySelector('.menu_icon');
 
 function showSidebar(){
@@ -31,7 +33,7 @@ spans.forEach((span)=>{
       span.innerHTML = span.dataset.width;
 })
 
-// Crousel Project
+// =================== Crousel Project =================================
 let slideIndex = 1;
 function showSlides(n) {
       let i;
