@@ -236,6 +236,7 @@ nav{
                   border-radius: 30px;
                   background: linear-gradient(90deg, #F9C61B 80%, #1188E7);
                   transition: width 0.5s linear;
+                  overflow-y: hidden;
             }
       }
 }
